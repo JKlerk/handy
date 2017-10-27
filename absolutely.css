@@ -3,8 +3,8 @@ body {
 	font-family : Tahoma;
 	font-size : 14px;
 	background-color : black;
-	/* toe te voegen */
 }
+
 .all {
 	text-align : left;
 	width : 700px;
@@ -12,5 +12,166 @@ body {
 	min-height : 600px;
 	background-image : url(bg.jpg);
 	border : 4px solid red;
+}
+
+#allhandy01{
+	background-color: rgba(187, 175, 158, 0.705);
+	margin: 221px 0px 0px 0px;
+	padding: 5px 0px 0px 0px;
+	height: 293px;
+}
+
+nav ul{
+	position: absolute;
+	top: -11px;
+	left: -1px;
+	list-style-type: none;
+	padding: 0px 747px 5px 739px;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 72%, rgb(255, 255, 255, 0.3) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 72%,rgb(255, 255, 255, 0.3) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0.65) 30%,rgba(255, 255, 255, 0.3) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+nav ul:hover{
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 72%, rgba(255, 255, 255, 0.3) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 72%,rgb(255, 255, 255, 0.3) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to top, rgba(255, 255, 255, 1) 50%,rgba(255, 255, 255, 0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+nav li{
+	float: left;
+	padding: 0px 19px 0px 29px;
+}
+
+nav li a{
+	color: grey;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+#allhandy01 h1{
+	margin: 0px 0px 0px 5px;
+	padding: 5px 0px 0px 5px;
+	font-size: 21px;
+}
+
+#allhandy01 p{
+	margin: 0px 0px 0px 0px;
+	padding: 2px 0px 0px 10px;
+	width: 690px;
+}
+
+#title{
+	position: absolute;
+	left: 630px;
+	top: 35px;
+}
+
+#saw{
+	position: absolute;
+	left: 560px;
+	top: 175px;
+}
+
+#saw:hover {
+	position: absolute;
+	left: 555px;
+}
+
+#hammer{
+	position: absolute;
+	left: 1101px;
+	top: 35px;
+}
+
+#hammer:hover{
+	position: absolute;
+	left: 1096px;
+}
+
+#pincers{
+	position: absolute;
+	left: 1171px;
+	top: 345px;
+}
+
+#pincers:hover{
+	position: absolute;
+	left: 1166px;
+}
+
+#screwdriver{
+	position: absolute;
+	left: 1154px;
+	top: 235px;
+}
+
+#screwdriver:hover{
+	position: absolute;
+	left: 1149px;
+}
+
+#toolbox img{
+	position: relative;
+	left: 220px;
+	top: 190px;
+}
+
+#humanfactor {
+    cursor: pointer;
+    position: relative;
+    color: blue;
+}
+
+#text {
+    display: none;
+    left: 0px;
+    position: absolute;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 200px;
+    color: black;
+    padding: 5px;
+}
+
+#humanfactor:hover #text {
+    display: block;
+}
+
+#toolbox{
+	position: relative;
+}
+
+#text2{
+	display: none;
+	left: 220px;
+	top: 115px;
+	position: absolute;
+    background-color: white;
+    width: 95px;
+    color: black;
+    padding: 0px;
+}
+
+#toolbox:hover #text2{
+	display: block;
+}
+
+#toolbox ul{
+	list-style-type: none;
+}
+
+#toolbox li a{
+	text-decoration: none;
+	color: grey;
+}
+
+#toolbox li{
+	border: 0.5px solid rgb(0, 0, 0);
+	padding: 10px 0px 2px 6px;
+	margin: 0px 0px 0px 0px;
+	border-right: 0px
 }
 
