@@ -27,16 +27,11 @@ nav ul{
 	left: -1px;
 	list-style-type: none;
 	padding: 0px 747px 5px 739px;
-	background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 72%, rgb(255, 255, 255, 0.3) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 72%,rgb(255, 255, 255, 0.3) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(0,0,0,0.65) 30%,rgba(255, 255, 255, 0.3) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-image: url("bar1.png")
 }
 
 nav ul:hover{
-	background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 72%, rgba(255, 255, 255, 0.3) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 72%,rgb(255, 255, 255, 0.3) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to top, rgba(255, 255, 255, 1) 50%,rgba(255, 255, 255, 0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
+	background-image: url("bar2.png");
 }
 
 nav li{
@@ -174,4 +169,3 @@ nav li a{
 	margin: 0px 0px 0px 0px;
 	border-right: 0px
 }
-
