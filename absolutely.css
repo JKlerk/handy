@@ -154,6 +154,10 @@ nav li a{
 	display: block;
 }
 
+#text2 li:hover{
+	background-color: yellow;
+}
+
 #toolbox ul{
 	list-style-type: none;
 }
